@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- google fonts links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- css links -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- javascript -->
+  <script defer src="script.js"></script>
+  <!-- title -->
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+    <header>
+        <div class="row1">
+            <img src="images/icon-menu.svg" alt="" class="menu" id="menuicon" tabindex="0">
+            <img src="images/logo.svg" alt="" class="img2">
+        </div>
+        <nav class="row2" id="menu">
+            <img src="images/icon-close.svg" alt="" class="close" id="closeicon" tabindex="0">
+            <ul>
+                <li><a href="">Collections</a></li>
+                <li><a href="">Men</a></li>
+                <li><a href="">Women</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="row3">
+            <img src="images/icon-cart.svg" alt="" class="img3" id="carticon" tabindex="0">
+            <span class="span0" id="update"></span>
+            <img src="images/image-avatar.png" alt="" class="img4">
+        </div>
+        <div class="cart" id="cart">
+            <p class="carthead">Cart</p>
+            <div class="cartbody" id="cartbody">
+                <div class="row4">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="" class="cartimg1">
+                    <p class="cartp">Fall Limited Edition Sneakers $125.00 × <span id="number"></span> <span class="span1" id="price"></span></p>
+                    <img src="images/icon-delete.svg" alt="" class="cartimg2" id="deleteicon" tabindex="0">
+                </div>
+                <button class="button1">Checkout</button>
+            </div>
+            <div class="cartbody1" id="cartbody1">
+                <p>Your cart is empty.</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container1">
+                <img src="images/image-product-1.jpg" alt="A pair of shoe" class="img5" id="parentimage" tabindex="0">
+                <img src="images/icon-previous.svg" alt="" class="previous" id="previous" tabindex="0">
+                <img src="images/icon-next.svg" alt="" class="next" id="next" tabindex="0">
+                <div class="container2">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="A pair of shoe" class="img6" tabindex="0">
+                    <img src="images/image-product-2-thumbnail.jpg" alt="A pair of shoe" class="img6" tabindex="0">
+                    <img src="images/image-product-3-thumbnail.jpg" alt="A pair of shoe" class="img6" tabindex="0">
+                    <img src="images/image-product-4-thumbnail.jpg" alt="A pair of shoe" class="img6" tabindex="0">
+                </div>
+            </div>
+            <div class="container3" id="lightbox">
+                <img src="images/image-product-1.jpg" alt="A pair of shoe" class="img5" id="parentimage1">
+                <div class="container4">
+                    <img src="images/image-product-1-thumbnail.jpg" alt="A pair of shoe" class="img66" tabindex="0">
+                    <img src="images/image-product-2-thumbnail.jpg" alt="A pair of shoe" class="img66" tabindex="0">
+                    <img src="images/image-product-3-thumbnail.jpg" alt="A pair of shoe" class="img66" tabindex="0">
+                    <img src="images/image-product-4-thumbnail.jpg" alt="A pair of shoe" class="img66" tabindex="0">
+                </div>
+                <img src="images/icon-close.svg" alt="" class="close1" id="closebox" tabindex="0">
+                <img src="images/icon-previous.svg" alt="" class="previous1" id="previous1" tabindex="0">
+                <img src="images/icon-next.svg" alt="" class="next1" id="next1" tabindex="0">
+            </div>
+            <section>
+                <small>SNEAKER COMPANY</small>
+                <h1>Fall Limited Edition Sneakers</h1>
+                <p class="p">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                <div class="div1">
+                    <p class="p1">$125.00<span class="span2">50%</span></p>
+                    <p class="p2">$250.00</p>
+                </div>
+                <div class="div2">
+                    <div class="div3">
+                        <img src="images/icon-minus.svg" alt="" class="img7" id="minus" tabindex="0">
+                        <p id="result"></p>
+                        <img src="images/icon-plus.svg" alt="" class="img8" id="plus" tabindex="0">
+                    </div>
+                    <button class="button2" id="button2">
+                        <img src="images/icon-cart.svg" alt="">
+                        Add to cart
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="https://www.frontendmentor.io/profile/collins-ai" target="_blank">Sunday Collins</a>.
+        </div>
+    </footer>
+</body>
+</html>
