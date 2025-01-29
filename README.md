@@ -11,8 +11,8 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/collins-ai/E-commerce--page.git)
-- Live Site URL: [Add live site URL here]( https://collins-ai.github.io/E-commerce--page/)
+- Solution URL: [Add solution URL here](https://github.com/collins-ai/E-commerce-page.git)
+- Live Site URL: [Add live site URL here]( https://collins-ai.github.io/E-commerce-page/)
 
 ### Built with
 
